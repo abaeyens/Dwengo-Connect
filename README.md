@@ -40,10 +40,15 @@ stopMotors();
 De functie 'setVariable' is een beetje een buitenbeentje. Deze zendt een waarde van een variabele door en wordt in de microcontroller vervolgens ingeladen. Je kan deze dan gebruiken in je eigen programma. Als je deze gebruikt met het demo programma wordt de variabele wel ingeladen maar er wordt vervolgens niets mee gedaan.
 
 ### Welk protocol wordt er gebruikt?
-Een voorbeeld van een message-string:
+Een voorbeeld van een korte message-string:
+`$LCDT,"Hello World!"*`
+
+Deze geeft "Hello World!" weer op het LCD scherm van de microcontroller.
+
+Deze is al wat langer en bevat verschillende commands:
 `$SCR,00,LCDT,"Hello World!",SCR,10,LCDI,80,LED,AA,V2,15,M1,3FF*`
 
-deze voert de volgende functies uit:
+en voert de volgende functies uit:
 ```python
 printStringToLCD( "Hello World!",0,0 )
 printIntToLCD( 128, 1,0)
