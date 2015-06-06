@@ -43,9 +43,10 @@ De functie 'setVariable' is een beetje een buitenbeentje. Deze zendt een waarde 
 Een voorbeeld van een korte message-string:
 `$LCDT,"Hello World!"*`
 
-Deze geeft "Hello World!" weer op het LCD scherm van de microcontroller.
+Deze geeft "Hello World!" weer op het LCD scherm van de microcontroller. Het gebruiken van de functie `appendStringToLCD( "Hello World" )` (samen met `send_data()`) in het Python programma zal bovenstaande command versturen en heeft hetzelfde resultaat als die functie aan te roepen in het programma van de microcontroller zelf.
 
-Deze is al wat langer en bevat verschillende commands:
+Volgende string is al wat langer en bevat verschillende commands:
+
 `$SCR,00,LCDT,"Hello World!",SCR,10,LCDI,80,LED,AA,V2,15,M1,3FF*`
 
 en voert de volgende functies uit:
