@@ -41,9 +41,9 @@ De functie 'setVariable' is een beetje een buitenbeentje. Deze zendt een waarde 
 
 ### Welk protocol wordt er gebruikt?
 Een voorbeeld van een korte message-string:
-`$LCDT,"Hello World!"*`
+`$LCDT,"Hello World!"*`.
 
-Deze geeft "Hello World!" weer op het LCD scherm van de microcontroller. Het gebruiken van de functie `appendStringToLCD( "Hello World" )` (samen met `send_data()`) in het Python programma zal bovenstaande command versturen en heeft hetzelfde resultaat als die functie aan te roepen in het programma van de microcontroller zelf.
+Deze geeft "Hello World!" weer op het LCD scherm van de microcontroller. Het gebruiken van de functie `appendStringToLCD( "Hello World" )` (samen met `send_data()` om de message string te versturen) in het Python programma zal bovenstaande command versturen en heeft hetzelfde resultaat als die functie aan te roepen in het programma van de microcontroller zelf.
 
 Volgende string is al wat langer en bevat verschillende commands:
 
