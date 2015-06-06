@@ -20,7 +20,7 @@ Om data door te sturen moet je steeds twee functies gebruiken:
 2. (optioneel) je kan nog functies toevoegen maar zorg ervoor dat de lijst niet te lang wordt.
 3. `send_data()`. Deze stuurt al de data door. De functies staan samen in een command en worden sequentieel uitgevoerd.
 
-Welke functies zijn er tot nu toe beschikbaar?
+### Welke functies zijn er tot nu toe beschikbaar?
 Je kan de volgende functies gebruiken:
 ```c++
 send_handshake();
@@ -53,7 +53,9 @@ SetSpeedMotor1( 1023 )
 ```
 
 Een message string bestaat steeds uit de volgende componenten:
-volledige string:`$<command_name>*`
+
+volledige string: `$<command_name>*`
+
 onderdelen:
 
 Karakter | Betekenis
