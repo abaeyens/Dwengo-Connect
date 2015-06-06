@@ -7,11 +7,11 @@ Dwengo connect is een interface die communicatie tussen een computer en het Dwen
 Het programma bestaan uit twee delen: een interface voor op de computer die de functies die je gebruikt in een net protocol giet en doorstuurt en het programma op het Dwengo bord dat deze ontvangt, decodeert en uitvoert.
 Je kan ook met een seriële terminal zoals teraterm werken en de message-strings zelf typen. In dat geval is er geen programmeersoftware aan de computerzijde nodig.
 
-Op de microcontroller dien je met behulp van MPLABX het bestand `Dwengo_connect_pic_board_vX-X.c` te flashen. Je kan deze code aanpassen om zo functionaliteit toe te voegen maar je kan ook de code plakken in je bestaande programma. Dat laatste is al wat moeilijker. Het ontvangen en verwerken van data is interrupt-gebaseerd waardoor de main-lus van het programma vrij is zodat er plaats is voor jouw programma.
+Op de microcontroller dien je met behulp van MPLABX het bestand `Dwengo_connect_pic_board_vX.X.c` te flashen. Je kan deze code aanpassen om zo functionaliteit toe te voegen maar je kan ook de code plakken in je bestaande programma. Dat laatste is al wat moeilijker. Het ontvangen en verwerken van data is interrupt-gebaseerd waardoor de main-lus van het programma vrij is zodat er plaats is voor jouw programma.
 
-Voor de computerzijde is er een demo programma in Python voorzien. Je kan het bestand `Dwengo_connect_demo_vX-X.py` downloaden, bewerken in je favoriete IDE en vervolgens met een Python interpreter runnen.
+Voor de computerzijde is er een demo programma in Python voorzien. Je kan het bestand `Dwengo_connect_demo_vX.X.py` downloaden, bewerken in je favoriete IDE en vervolgens met een Python interpreter runnen.
 
-Voor de Rapsberry Pi is er ook een bestand in C++, `Dwengo_connect_Rpi_demo_vX-X.cpp` voorzien. Dit maakt gebruik van de wiringPi bibliotheek en werkt enkel op de Raspberry Pi. Voor het compileren zal je dus ook de wiringPi bibliotheek moeten installeren.
+Voor de Rapsberry Pi is er ook een bestand in C++, `Dwengo_connect_Rpi_demo_vX.X.cpp` voorzien. Dit maakt gebruik van de wiringPi bibliotheek en werkt enkel op de Raspberry Pi. Voor het compileren zal je dus ook de wiringPi bibliotheek moeten installeren.
 
 ### Hoe gebruik ik de interface aan de computerzijde?
 Om data door te sturen moet je steeds twee functies gebruiken:
