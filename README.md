@@ -71,7 +71,7 @@ Bij bepaalde commands hoort er ook data. Dan ziet het er zo uit:
 Je kan zo veel commands achter elkaar zetten als je wil maar de message strings mogen maximum 120 tekens lang zijn. De Python code geeft in de terminal ook weer wat er verzonden wordt. Zo kan je zelf zien hoe de data van bepaalde functies wordt gestructureerd.
 
 ### Vragen, bugs, tips?
-Op het Dwengo forum is er een forumtopic (link) voorzien waar je terecht kan met al je vragen en tips. Mocht iets van interface niet werken zoals voorzien, laat dat dan zeker weten in die forumthread. Als je zelf een mooi project hebt gemaakt met de interface, post dan zeker een berichtje, liefst met een beetje uitleg en een paar foto's.
+Op het Dwengo forum is er een [forumtopic](http://www.dwengo.org/node/111) voorzien waar je terecht kan met al je vragen en tips. Mocht iets van interface niet werken zoals voorzien, laat dat dan zeker weten in die forumthread. Als je zelf een mooi project hebt gemaakt met de interface, post dan zeker een berichtje, liefst met een beetje uitleg en een paar foto's.
 
 ### Bekende bugs?
 Volgende bug is bekend:
@@ -85,5 +85,5 @@ Als je zelf denkt een bug gevonden te hebben post dan een berichtje in de forumt
 - protocol ook implementeren in de Arduino language zodat er ook compatibiliteit is met het Dwenguino bord.
 - code aan de computerzijde in een Python module gieten zodat niet altijd de gehele code moet gekopieerd worden.
 - toevoegen van functies voor uitlezen analoge poorten en aansturen digitale poorten.
-- voor iemand met wat meer ervaring met de pic 18f4550: de seriële interrupt combineren met een timer interrupt voor het aansturen van servos en een interrupt-on-change voor de drukknoppen.
+- eventueel, voor iemand met wat meer ervaring met de pic 18f4550: de seriële interrupt combineren met een timer interrupt voor het aansturen van servos en een interrupt-on-change voor de drukknoppen.
 - … ?
